@@ -1,0 +1,91 @@
+
+.email-me-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+}
+.form {
+  max-width: 25vw;
+  margin: 0 auto;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  background-color: #ffffff65;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5vw;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 1vw;
+  margin-bottom: 0.5vw;
+  font-size: 1.5vw;
+  border: 1px solid #ffffff;
+  border-radius: 0.5vw;
+  
+ 
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5vw 1vw;
+  font-size: 1vw;
+  border-radius: 0.5vw;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.follow-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3vw;
+  color: white;
+  position: relative;
+}
+
+
+
+.in-img {
+  width: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  padding-bottom: 1vw;
+  margin-top: 1vw;
+  position: absolute;
+  top: 46vw;
+  left: 74vw;
+
+ 
+}
+
+.in-img:hover {
+width: 3.5vw;
+
+
+ 
+  
+}
