@@ -1,4 +1,15 @@
+.contact-me-stick {
+  position: relative;
+  top: 150vw;
+}
 
+.contactme {
+  position: absolute;
+  top: 10vw;
+  left: 16vw;
+  
+  
+}
 .email-me-text {
     display: flex;
     justify-content: center;
@@ -76,8 +87,8 @@
   padding-bottom: 1vw;
   margin-top: 1vw;
   position: absolute;
-  top: 46vw;
-  left: 74vw;
+  top: 33vw;
+  left: 50vw;
 
  
 }
@@ -85,7 +96,24 @@
 .in-img:hover {
 width: 3.5vw;
 
+}
 
- 
-  
+.mailme-img img {
+  position: absolute;
+  display: flex;
+  width: 15vw;
+  top: 5vw;
+  left: -8vw;
+}
+
+
+
+.side-text {
+  position: absolute;
+  left: 60vw;
+  color: white;
+  width: 30vw;
+  top: 20vw;
+  font-family: arial;
+  font-size: 1vw;
 }

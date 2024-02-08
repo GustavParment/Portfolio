@@ -1,5 +1,28 @@
+.about-me-stick {
+    position: relative;
+    top: 30vw;
+}
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20vw;
+    box-shadow: 0 0 1vw rgba(255, 255, 255, 0.8);
+    margin-right: 1vw;
+    margin-left: 1vw;
+    padding-right: 4vw;
 
 
+}
+
+.About-me-rub{
+position: absolute;
+color: white;
+top: -5vw;
+font-size: 3vw;
+font-family: Arial, Helvetica, sans-serif;
+}
 .intro-text{
     color: white;
     display: flex;
@@ -10,6 +33,62 @@
     padding-right: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
 
+    
+}
+
+.about-me-nav-container {
+    position: absolute;
+    color: white;
+    top: 20vw;
+    left: 50vw;
+    
+    
+}
+
+.about-me-nav-container ul {
+    display: flex;
+    color: white;
+    top: 20vw;
+    left: 50vw;
+}
+.list-button {
+    display: flex;
+    list-style: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+    
+    
+   
+}
+.button {
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 0.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 0.5vw rgba(255, 255, 255, 0.8);
+}
+
+.button:hover {
+    cursor: pointer;
+
+}
+
+.list-on-click {
+    position: absolute;
+    top: 26vw;
+    left: 52vw;
+    
     
 }

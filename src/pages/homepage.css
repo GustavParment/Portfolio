@@ -1,11 +1,21 @@
-.welcome-container {
+.home-stick{
+position: relative;
+margin-top: 1vw;
+padding-top: 5vw;
+
+}
+
+.homepage {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    top: 1vw;
+    margin-top: 1vw;
     
    
 }
+
 .welcome-message{
     font-size: 3vw;
     color: white;
@@ -13,7 +23,7 @@
     position: absolute;
     left: 10vw;
     text-decoration: underline;
-    top: 5vw;
+    top: 10vw;
     
     
 
@@ -22,8 +32,8 @@
 .welcome-img {
     width: 30vw;
     position: absolute;
-    left: 50vw;
-    margin-top: 35vw;
+    left: 55vw;
+    margin-top: 40vw;
     
 }
 
@@ -31,16 +41,35 @@
     color: white;
     position: absolute;
     left: 10vw;
-    top: 11vw;
+    top: 20vw;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 1.5vw;
     font-style: italic;
-    
     border-color: aliceblue;
     border-style: dashed;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
     padding-bottom: 1vw;
     padding-top: 1vw;
     
+}
+
+.img-container{
+    display: flex;
+    position: absolute;
+    top: 37vw;
+    left: 1vw;
+}
+.img-container li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2vw;
+    
+}
+
+.program-img {
+    width: 3vw;
+   
 }
 

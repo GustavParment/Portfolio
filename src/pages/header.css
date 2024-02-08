@@ -1,23 +1,41 @@
-div h1 {
+.header{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    background-color: rgba(103, 123, 123, 0.485);
-    border-radius: 1vw;
-    font-size: 6vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    opacity: 0.8;
-    font-family: "Protest Guerrilla", sans-serif;
-    position: relative;
     background-image: url('https://t3.ftcdn.net/jpg/02/97/91/38/360_F_297913876_pxLCVBrLEyznyqdHvNpKmNRPvYWoqlEW.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
     border-radius: 0.5vw;
+    box-shadow: 0 0 1vw rgba(255, 255, 255, 0.8);
+    top: 0;
+    opacity: 0.9;
+    right:  0vw;
+    left: 0vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    
+    
+   
+    
+
+}
+div h1 {
+    color: white;
+    padding-top: 1vw;
+    font-size: 7vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Protest Guerrilla", sans-serif;
+    
+    
+
+    
+    
+
 }
 
 .email-text {
@@ -25,14 +43,15 @@ div h1 {
     top: 6.5vw;
     left: 4.5vw;
     color: white; 
-    font-size: 1vw;   
+    font-size: 1vw;
+    padding-bottom: 10vw;   
 
 }
 
 .mail-icon {
     position: absolute;
     width: 2vw;
-    top: 7vw;
+    top: 7.5vw;
     left: 2vw;
     
 }
