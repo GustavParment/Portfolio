@@ -8,12 +8,10 @@ import {Routes, Route} from 'react-router-dom'
 
 
 
-
-
 function App() {
     return(
         <>
-        <Header/>
+    <Header/>
         <div className='App'>
 <Routes>
     <Route path="/" element={<HomePage/>}/>
@@ -23,6 +21,7 @@ function App() {
 
 </Routes>
     </div>
+   
     </>
             
     )

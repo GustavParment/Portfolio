@@ -1,0 +1,46 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+   
+}
+.welcome-message{
+    font-size: 3vw;
+    color: white;
+    font-family: Lobster, arial;
+    position: absolute;
+    left: 10vw;
+    text-decoration: underline;
+    top: 5vw;
+    
+    
+
+}
+
+.welcome-img {
+    width: 30vw;
+    position: absolute;
+    left: 50vw;
+    margin-top: 35vw;
+    
+}
+
+.welcome-text {
+    color: white;
+    position: absolute;
+    left: 10vw;
+    top: 11vw;
+    font-size: 1.5vw;
+    font-style: italic;
+    
+    border-color: aliceblue;
+    border-style: dashed;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    
+}
+

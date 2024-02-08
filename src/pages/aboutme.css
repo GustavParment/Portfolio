@@ -1,16 +1,11 @@
-.about-me-container {
-  
-    
-}
 
 
 .intro-text{
-    color: rgb(255, 255, 255);
+    color: white;
     display: flex;
     width: 36vw;
     margin-left: 5vw;
     font-size: 1.5vw;
-    
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 1vw;
