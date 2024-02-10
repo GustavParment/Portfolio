@@ -7,21 +7,22 @@ const AboutMe = () => {
 
   const handleFrontendClick = () => {
     setDisplayText(<ul>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>React/Vite</li>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>HTML</li>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>CSS</li>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>Typescript</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>React/Vite</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>HTML</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>CSS</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>Typescript</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>Tailwind & Boot Strap</li>
   </ul>)
     
   };
 
   const handleBackendClick = () => {
     setDisplayText(<ul>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>Java/Spirng Boot</li>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>JavaScript/Node.js</li>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>Python</li>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>MySQL/MariaDB/PostgreSQL</li>
-      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto'}}>MongoDB/NoSQL</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>Java/Spirng Boot</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>JavaScript/Node.js</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>Python</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>MySQL/MariaDB/PostgreSQL</li>
+      <li style={{fontSize: '1vw', fontFamily: 'Arial', color: 'white', textDecorationLine: 'none', cursor: 'auto', margin: '1vw'}}>MongoDB/NoSQL</li>
     
 
     </ul>)

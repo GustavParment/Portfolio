@@ -30,10 +30,11 @@ padding-top: 5vw;
 }
 
 .welcome-img {
-    width: 30vw;
+    width: 25vw;
     position: absolute;
-    left: 55vw;
+    left: 60vw;
     margin-top: 40vw;
+    transform: rotate(10deg);
     
 }
 
