@@ -35,6 +35,8 @@ padding-top: 5vw;
     left: 60vw;
     margin-top: 40vw;
     transform: rotate(10deg);
+    filter: drop-shadow(0vw 0vw 1vw white);
+    
     
 }
 

@@ -3,13 +3,14 @@ import './contactme.css'
 import { EmailComp } from './EmailComp'
 
 
+
 const ContactMe = () => {
   return (
     <>
    <div id='contact' className='contact-me-stick'>
-    <p className='side-text'>Thank you for stopping by my portfolio! I'm passionate about 
-                      developing, and I'm always eager to connect with like-minded individuals, 
-                      potential bussines business opportunitys, or fellow enthusiasts. If you have any questions, project ideas, 
+    <p className='side-text'>Thank you for stopping by my portfolio!
+                      I'm always eager to connect with like-minded individuals, 
+                      potential business opportunitys, or fellow enthusiasts. If you have any questions, project ideas, 
                       or just want to discuss the exciting possibilities within developing, I'd love to hear from you.</p>
                   
      <div className='contactme'>

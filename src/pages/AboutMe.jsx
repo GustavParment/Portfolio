@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import './aboutme.css'
+import Card from '../components/Card';
+
 
 
 const AboutMe = () => {
@@ -40,11 +42,11 @@ const AboutMe = () => {
       <div className='about-me-container'>         
        <p className='About-me-rub'>About me</p>
        <p className='intro-text' >
-        Greetings! It's my pleasure to introduce myself, 
-        i am a passionate developer who got a passion for writeing code. 
+        Hi! It's my pleasure to introduce myself.
+        I am a passionate developer who has a passion for writeing code. 
         With a deep-seated love for problem-solving and an innate 
         ability to transform ideas into reality, 
-        i am driving force in the dynamic world of software development. 
+        I am a driving force in the dynamic world of software development. 
         </p>
       </div>
       <div className='about-me-nav-container'>
@@ -55,6 +57,11 @@ const AboutMe = () => {
         </ul>
     </div>
     <div className='list-on-click'>{displayText}</div>
+    <div className='my-projects'>
+      <p className='my-projects-rub'>My projects</p>
+      <div className='project-container'><Card/></div>
+      
+    </div>
     </div>
     
   )

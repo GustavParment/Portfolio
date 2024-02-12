@@ -1,6 +1,6 @@
 .contact-me-stick {
   position: relative;
-  top: 150vw;
+  top: 110vw;
 }
 
 .contactme {
@@ -88,7 +88,7 @@
   margin-top: 1vw;
   position: absolute;
   top: 33vw;
-  left: 50vw;
+  left: 51vw;
 
  
 }
@@ -103,7 +103,8 @@ width: 3.5vw;
   display: flex;
   width: 15vw;
   top: 5vw;
-  left: -8vw;
+  left: -9vw;
+  filter: drop-shadow(0vw 0vw 1vw white);
 }
 
 

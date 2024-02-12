@@ -92,3 +92,22 @@ font-family: Arial, Helvetica, sans-serif;
     
     
 }
+
+.my-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45vw;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    padding-bottom: 70vw;
+}
+.my-projects-rub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
