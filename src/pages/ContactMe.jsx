@@ -1,13 +1,14 @@
-import React from 'react'
 import './contactme.css'
 import { EmailComp } from './EmailComp'
+import React from 'react';
 
 
 
 const ContactMe = () => {
-  return (
+  
+ return (
     <>
-   <div id='contact' className='contact-me-stick'>
+    <div id='contact' className='contact-me-stick'>
     <p className='side-text'>Thank you for stopping by my portfolio!
                       I'm always eager to connect with like-minded individuals, 
                       potential business opportunitys, or fellow enthusiasts. If you have any questions, project ideas, 
@@ -24,7 +25,7 @@ const ContactMe = () => {
                   <img src="./images/mailme.png" alt="" />
                   </div>
                  
-              </div>
+                </div>
               </div>
             </>
   )

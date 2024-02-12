@@ -24,7 +24,7 @@ export const EmailComp = () => {
   return (
     <div className='form'>
     <form className='form' ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+      <label>Subject</label>
       <input type="text" name="user_name" />
       <label>Email</label>
       <input type="email" name="user_email" />

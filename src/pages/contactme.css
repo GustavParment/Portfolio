@@ -23,23 +23,24 @@
   margin: 0 auto;
   padding: 1vw;
   border-radius: 0.5vw;
-  background-color: #ffffff65;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .form label {
   display: block;
   margin-bottom: 0.5vw;
-  color:black;
+  color:rgb(255, 255, 255);
   font-family: 'Courier New', Courier, monospace;
   font-size: 1vw;
   font-weight: bold;
+  color: white;
 }
 
 .form input[type="text"],
 .form input[type="email"],
 .form textarea {
   width: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding-bottom: 1vw;
   margin-bottom: 0.5vw;
   font-size: 1.5vw;
@@ -57,10 +58,12 @@
   background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 0.5vw 1vw;
+  padding: 0.5vw 1vw ;
   font-size: 1vw;
   border-radius: 0.5vw;
   cursor: pointer;
+  margin-top: 1vw;
+ 
 }
 
 .form input[type="submit"]:hover {
@@ -75,6 +78,8 @@
   font-size: 3vw;
   color: white;
   position: relative;
+  
+  
 }
 
 
@@ -118,3 +123,4 @@ width: 3.5vw;
   font-family: arial;
   font-size: 1vw;
 }
+

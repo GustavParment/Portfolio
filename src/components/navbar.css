@@ -64,6 +64,44 @@ li:hover {
     cursor: pointer;
 }
 
+.nav-link-button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+    background-color: rgb(165, 172, 177);
+    border-radius: 0.5vw;
+    opacity: 0.8;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    transition: color 0.10s ease-in-out, opacity 0.5s ease-in-out, margin-left 0.4s ease-in-out, margin-right 0.4s ease-in-out, transform 0.5s ease-in-out;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    margin-top: 0;
+   
+    
+}
+.nav-link-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(99, 46, 98, 0.829);
+    background-image: url('https://t3.ftcdn.net/jpg/02/97/91/38/360_F_297913876_pxLCVBrLEyznyqdHvNpKmNRPvYWoqlEW.jpg');
+    background-size: cover ;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    opacity: 0.8;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+
+}
+
 /*@media only screen and (max-width: 600px) {
     
     .nav-link {
