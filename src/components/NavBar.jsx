@@ -21,7 +21,7 @@ const downloadFileAtURL = (url) => {
         <li><Link to="home" smooth={true} duration={2000} className='nav-link'>Home</Link></li>
         <li><Link to="about" smooth={true} duration={2000} className='nav-link' >About</Link></li>
         <li><Link to="contact" smooth={true} duration={2000} className='nav-link'>Contact</Link></li>
-        <li><button onClick={() => {downloadFileAtURL(PDF)}} className='nav-link-button'>Download CV</button></li>
+        <li><Link onClick={() => {downloadFileAtURL(PDF)}} className='nav-link'>Download CV</Link></li>
         
       </ul>
     </div>

@@ -17,13 +17,13 @@ padding-top: 5vw;
 }
 
 .welcome-message{
-    font-size: 3vw;
+    font-size: 4vw;
     color: white;
     font-family: Lobster, arial;
     position: absolute;
     left: 10vw;
     text-decoration: underline;
-    top: 10vw;
+    top: 5vw;
     
     
 
@@ -43,8 +43,8 @@ padding-top: 5vw;
 .welcome-text {
     color: white;
     position: absolute;
-    left: 10vw;
-    top: 20vw;
+    left: 15vw;
+    top: 17vw;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.5vw;
@@ -60,14 +60,17 @@ padding-top: 5vw;
 
 .img-container{
     display: flex;
+    justify-content: space-evenly;
     position: absolute;
     top: 37vw;
     left: 1vw;
+    
 }
 .img-container li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 2vw;
+    margin-left: 3.5vw;
+    
     
 }
 

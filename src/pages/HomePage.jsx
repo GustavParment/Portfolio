@@ -11,17 +11,47 @@ return (
     </div>
 <div className='img-container'>
     <ul>
-       <li><img className='program-img' src="./images/java.png" alt="" /></li>
-          <li><img className='program-img' src="./images/js.png" alt="" /></li>
-            <li><img className='program-img' src="./images/typescript.png" alt="" /></li>
-              <li><img className='program-img' src="./images/python.png" alt="" /></li>
-                <li><img className='program-img' src="./images/database.png" alt="" /></li>
-              <li><img className='program-img' src="./images/mysql.png" alt="" /></li>
-            <li><img className='program-img' src="./images/react.png" alt="" /></li>
-          <li><img className='program-img' src="./vite.svg" alt="" /></li>
-        <li><img className='program-img' src="./images/html.png" alt="" /></li>
-      <li><img className='program-img' src="./images/css3.png" alt="" /></li>
-    </ul>
+       <li>
+          <a href="https://www.java.com/sv/">
+            <img className='program-img' src="./images/java.png" alt="" />
+          </a>
+        </li>
+            <li>
+              <a href="https://nodejs.org/en">
+                <img className='program-img' src="./images/node-js.png" alt="" />
+                  </a>
+                </li>
+            <li>
+              <a href="https://www.python.org/">
+                  <img className='program-img' src="./images/python.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.mongodb.com/">
+                  <img className='program-img' src="./images/database.png" alt="" />
+                </a>
+              </li>
+              <li>
+                  <a href="https://www.mysql.com/">
+                    <img className='program-img' src="./images/mysql.png" alt="" />
+                  </a>
+                  </li>
+                <li>
+                  <a href="https://www.typescriptlang.org/">
+                    <img className='program-img' src="./images/typescript.png" alt="" />
+                  </a>
+                </li>
+            <li>
+              <a href="https://react.dev/">
+                <img className='program-img' src="./images/react.png" alt="" />
+              </a>
+            </li>
+        <li>
+          <a href="https://vitejs.dev/">
+            <img className='program-img' src="./vite.svg" alt="" />
+          </a>
+          </li>
+     </ul>
   </div>
 </div>
    

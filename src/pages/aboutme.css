@@ -17,12 +17,13 @@
 }
 
 .About-me-rub{
-position: absolute;
-color: white;
-top: -5vw;
-font-size: 3vw;
-font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: white;
+    top: -5vw;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .intro-text{
     color: white;
     display: flex;
