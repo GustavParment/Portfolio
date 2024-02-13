@@ -10,12 +10,11 @@ import Header from './pages/Header.jsx';
 function App() {
   return (
 <div className='app'>
-    <Header/>
+  <Header/>
     <HomePage/>
-    <AboutMe/>
+      <AboutMe/>
     <ContactMe/>
-     
-      </div>
+</div>
    
   );
 }
